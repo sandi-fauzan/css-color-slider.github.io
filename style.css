@@ -283,18 +283,18 @@ body {
     }
 
     .jumbotron .isi h1 {
-        font-size: 34px;
+        font-size: 29px;
     }
 
     .jumbotron .isi p {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     /* Content */
 
     .content h1,
     .content h1 span {
-        font-size: 38px;
+        font-size: 30px;
         margin: -80px 0;
     }
 
@@ -326,7 +326,7 @@ body {
 
     .about p {
         font-size: 12px;
-        text-align: left;
+        text-align: center;
         max-width: 400px;
         margin: 10px 20px;
     }
@@ -338,7 +338,7 @@ body {
     }
 
     .c-pick .slide {
-        width: 200px;
+        width: 160px;
         height: 10px;
     }
 
