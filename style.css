@@ -138,7 +138,8 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.slider h1 {
+
+.c-pick h1 {
     margin: 60px 0;
     font-weight: 600;
 }
@@ -180,23 +181,10 @@ body {
 /* Slider */
 
 
-.canvas {
-    position: absolute;
-    width: 600px;
-    height: 700px;
-    background-color: #709fb0;
-    float: right;
-    margin: -600px 600px;
-    -webkit-box-shadow: 0px 15px 44px -20px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 15px 44px -20px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 15px 44px -20px rgba(0, 0, 0, 0.75);
-}
-
 
 /* Section */
 
 .testi {
-    margin-top: 180px;
     position: relative;
     display: inline-block;
     background-color: #ececec;
@@ -377,5 +365,3 @@ body {
 
 
 }
-
-/* Tablet */
