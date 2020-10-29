@@ -1,0 +1,257 @@
+<html lang="en" id="home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand ml-4" href="#">CSS <span>Color Slider</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto mr-3">
+                <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#slider">Colour Slider</a>
+                <a class="nav-item nav-link" href="#testi">Testimonials</a>
+                <a class="btn btn-outline-warning text-white-70 tbl" href="#" tabindex="-1" aria-disabled="true">Join
+                    Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="isi">
+                <h1><span>CSS Color Slider</span> is a CSS Color Slider Tool and used for a Web Development.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto odit sequi inventore voluptatum
+                    quisquam
+                    similique, quam aliquam in architecto, recusandae deserunt repellat tempore!. Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Labore incidunt accusamus enim illum aliquam rerum quia fuga
+                    accusantium.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content jumbotron-fluid">
+        <div class="container">
+            <h1>Welcome To <span>CSS Color Slider</span>, Mate!</h1>
+            <div class="row c-1">
+                <div class="col-md-3">
+                    <img src="img/1.svg" class="svg">
+                    <p><span style="color: #db6400;">Fast</span> & Simply!</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/2.svg" class="svg">
+                    <p>Safe <span style="color: #efbbcf;">Privacy</span></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/3.svg" class="svg">
+                    <p><span style="color: #6a097d;">Global</span> Users</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/not.svg" class="svg">
+                    <p><span style="color: #e6a031;">Update</span></p>
+                </div>
+            </div>
+            <div class="row c-2">
+                <div class="col-md-3">
+                    <img src="img/4.svg" class="svg">
+                    <p>Simple <span style="color: #01c5c4;">Tutorial</span></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/5.svg" class="svg">
+                    <p><span style="color: #94b4a4;">Custom</span> User</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/6.svg" class="svg">
+                    <p>Save <span style="color: #150485;">Your Money</span></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/set.svg" class="svg">
+                    <p>Custom <span style="color: #f041e1;">Setting</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about jumbotron-fluid" id="about">
+        <div class="container">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eaque velit error maiores. Quis
+                reiciendis ipsa quibusdam ullam at delectus, nobis est hic ipsam dolorem, placeat culpa totam nesciunt
+                minima dolore illum voluptatum rem distinctio nemo facilis necessitatibus vero sequi, fuga molestias!
+                Reprehenderit a impedit quaerat. Quaerat impedit natus distinctio nemo ipsa ducimus sequi obcaecati
+                aliquam atque consectetur nisi, magnam alias tempora fugit, corporis eius laudantium neque optio,
+                debitis nesciunt modi reiciendis expedita! Voluptates temporibus amet molestiae quidem, rerum
+                repellendus quam nihil suscipit esse sunt veritatis illum alias! Obcaecati commodi totam voluptatum
+                nihil modi expedita vitae animi deleniti necessitatibus dolorem.</p>
+        </div>
+    </div>
+
+
+    <div class="c-pick container-fluid" id="slider">
+        <div class="slider container">
+            <h1>Color <span style="color: #240D6c;">Slider</span></h1>
+            <div>
+                <div class="kotak merah"></div>
+                <input type="range" class="s-merah slide" min="1" max="255">
+
+                <div class="kotak hijau"></div>
+                <input type="range" class="s-hijau slide" min="1" max="255">
+
+                <div class="kotak biru"></div>
+                <input type="range" class="s-biru slide" min="1" max="255">
+            </div>
+            <div class="canvas"></div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid testi my-20 d-inline-block text-center" id="testi">
+        <!-- Section: Testimonials v.3 -->
+        <div class="mt-5 text-center my-5">
+
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold my-5" style="color: #240D6c;">Testimonials</h2>
+            <!-- Section description -->
+            <hr>
+
+            <!--Grid row-->
+            <div class="row text-center">
+
+                <!--Grid column-->
+                <div class="col-md-4 mb-md-0 mb-5">
+
+                    <div class="testimonial">
+                        <!--Avatar-->
+                        <div class="avatar mx-auto">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                                class="rounded-circle z-depth-1 img-fluid">
+                        </div>
+                        <!--Content-->
+                        <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+                        <h6 class="font-weight-bold blue-text my-3">Web Designer</h6>
+                        <p class="font-weight-normal dark-grey-text">
+                            <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                            Quod
+                            eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                        <!--Review-->
+                        <div class="orange-text">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star-half-alt"> </i>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 mb-md-0 mb-5">
+
+                    <div class="testimonial">
+                        <!--Avatar-->
+                        <div class="avatar mx-auto">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+                                class="rounded-circle z-depth-1 img-fluid">
+                        </div>
+                        <!--Content-->
+                        <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+                        <h6 class="font-weight-bold blue-text my-3">Web Developer</h6>
+                        <p class="font-weight-normal dark-grey-text">
+                            <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem
+                            ullam
+                            corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+                        <!--Review-->
+                        <div class="orange-text">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4">
+
+                    <div class="testimonial">
+                        <!--Avatar-->
+                        <div class="avatar mx-auto">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                                class="rounded-circle z-depth-1 img-fluid">
+                        </div>
+                        <!--Content-->
+                        <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+                        <h6 class="font-weight-bold blue-text my-3">Photographer</h6>
+                        <p class="font-weight-normal dark-grey-text">
+                            <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos
+                            ducimus
+                            qui
+                            blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                        <!--Review-->
+                        <div class="orange-text">
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="fas fa-star"> </i>
+                            <i class="far fa-star"> </i>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!-- Section: Testimonials v.3 -->
+
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <div class="wrap">
+            <p>Find Me On:</p>
+            <a href="https://www.facebook.com/san.fauzan.79/"><img src="img/facebook.svg" width="30px"
+                    class="d-inline-flex"></a>
+            <a href="https://github.com/sandifauzanrabani/"><img src="img/github.svg" width="30px"
+                    class="d-inline-flex"></a>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="scr.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"
+        integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">
+    </script>
+    <!-- Fontawesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</body>
+
+</html>
