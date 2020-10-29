@@ -1,7 +1,7 @@
 const sMerah = document.querySelector('.s-merah');
 const sHijau = document.querySelector('.s-hijau');
 const sBiru = document.querySelector('.s-biru');
-const canvas = document.querySelector('.canvas');
+const canvas = document.querySelector('.c-pick');
 
 sMerah.addEventListener('input', function () {
     const m = sMerah.value;
